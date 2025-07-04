@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Roboto-Regular", "sans-serif";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: #eeeeee;
+    max-width: 1440px;
+    margin: 0 100px;
+}
+
+main section {
+    padding: 100px 0;
+    border-bottom: 1px solid #cccccc;
+}
+
+main section article {
+    text-align: center;
+}
+
+header {
+    margin: 19px 0 19px 0;
+}
+
+header nav a {
+    color: #659D89;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+}
+
+header nav a:hover {
+    font-weight: 600;
+}
+
+main section > h2 {
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    font-weight: 500;
+    margin: 100px 0 60px 0;
+}
+
+.hero span {
+    color: #659D89;
+}
+
+.sidebar {
+    text-align: right;
+    margin-bottom: 83px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul a img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 4px;
+}
+
+.hero > a {
+    color: #666666;
+    text-decoration: none;
+}
+
+.hero > a:hover {
+    font-weight: 600;
+}
+
+.struggles, .ressources {
+    text-align: left;
+
+}
+
+.struggles div {
+    margin: 80px 80px 0px;
+}
+
+.struggles div img {
+    margin: 20px;
+}
+
+main section article {
+    margin-top: 100px;
+}
+
+main section article img {
+    max-width: 756px;
+    max-height: 425px;
+    width: 756px;
+    object-fit: cover;
+}
+
+.focus, .quit {
+    margin-right: 325px;
+}
+
+.mathew, .sleep {
+    margin-left: 325px;
+}
