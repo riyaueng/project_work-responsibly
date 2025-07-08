@@ -9,6 +9,11 @@
   src: url(../fonts/Roboto-Regular.ttf);
 }
 
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url(../fonts/Roboto-Bold.ttf);
+}
+
 html {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
@@ -47,7 +52,7 @@ header nav a {
 }
 
 header nav a:hover {
-  font-weight: 600;
+  text-shadow: 0 0 1px rgba(87, 167, 125, 0.754);
 }
 
 main section > h2 {
@@ -81,13 +86,17 @@ main section > h2 {
   margin-bottom: 4px;
 }
 
+.sidebar ul a img:hover {
+  filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.5));
+}
+
 .hero > a {
   color: #666666;
   text-decoration: none;
 }
 
 .hero > a:hover {
-  font-weight: 600;
+  text-shadow: 0 0 1px rgba(111, 111, 111, 0.754);
 }
 
 .struggles,
@@ -106,6 +115,11 @@ main section > h2 {
 .struggles div img {
   margin: 20px;
   text-align: center;
+}
+
+.struggles div img:hover,
+.ressources article a img:hover {
+  box-shadow: 0 0 15px rgba(51, 51, 51, 0.5);
 }
 
 main section article {
@@ -161,6 +175,10 @@ footer p {
 
 footer a {
   font-size: 20px;
+}
+
+footer a:hover {
+  text-shadow: 0 0 1px rgba(111, 111, 111, 0.754);
 }
 
 footer p {
